@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script src="./assets/script/index.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container flexbox">
+        <p> 
+            A <span>cookie</span> refers to a small piece of data stored on a user's device by a web browser 
+            while the user is browsing a website. Cookies are used to <span>store information</span> about the 
+            user's preferences, login status, and other browsing-related data.
+        </p>
+    </div>
+    <div class="cookies-modals">
+        <div class="modal start">
+            <h2>Cookies</h2>
+            <p> 
+                We'd like to let you know that our website employs cookies to improve your browsing experience. 
+                Cookies help us enhancing our website's functionality and offering you a more personalized experience. 
+                By clicking "Accept," you consent to using all types of cookies. For managing preferences, click "Cookie Settings" 
+                to customize your choices.
+            </p>
+            <button class="accept-cookies-btn">ACCEPT</button>
+            <button class="settings-cookies-btn">SETTINGS</button>
+        </div>
+        <div class="modal final">
+            <h2>Cookies Settings</h2>
+            <section class="cookies-preferences">
+                <ul>
+                    <li>Browser <label class="switch"> <input type="checkbox" class="browser"> <span class="slider round"></span> </label></li>
+                    <li>Operating System <label class="switch"> <input type="checkbox" class="os"> <span class="slider round"></span> </label></li>
+                    <li>Screen Width <label class="switch"> <input type="checkbox" class="width"> <span class="slider round"></span> </label></li>
+                    <li>Screen Height <label class="switch"> <input type="checkbox" class="height"> <span class="slider round"></span> </label></li>
+                </ul>
+            </section>
+            <button class="save-button">Save Preferences</button>
+        </div>
+    </div>
+</body>
+</html> 
